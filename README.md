@@ -8,13 +8,16 @@ Laser Detection Technology: Utilizes laser beams for accurate intrusion detectio
 ### IoT Integration: 
 Connects to Telegram bot for real-time monitoring and control.
 
-Remote Commands: Interact with the ESP32-CAM through Telegram commands.
+### Remote Commands:
+Interact with the ESP32-CAM through Telegram commands.
 
-Photo Capture: Capture photos on demand and send them to a Telegram chat.
+### Photo Capture:
+Capture photos on demand and send them to a Telegram chat.
 
-Flash LED Control: Toggle the flash LED for additional illumination.
+### Flash LED Control:
+Toggle the flash LED for additional illumination.
 
-Hardware Requirements
+## Hardware Requirements
 ESP32-CAM module
 Laser module
 LDR (Light Dependent Resistor)
@@ -26,14 +29,13 @@ Connect the laser module to pin 12 (LaserPin).
 Connect the LDR to pin 13 (LDRPin).
 Connect the flash LED to pin 4 (FlashLEDPin).
 Ensure proper connections for the ESP32-CAM module.
-Arduino Libraries
-Ensure the following Arduino libraries are installed:
+## Arduino Libraries
 
-WiFi.h
-WiFiClientSecure.h
-UniversalTelegramBot.h
-ArduinoJson.h
-esp_camera.h
+### Ensure the following Arduino libraries are installed:
+* WiFi.h
+* WiFiClientSecure.h
+* UniversalTelegramBot.h
+* ArduinoJson.h
 Configuration
 Set your WiFi credentials: const char* ssid = "YourWiFiSSID"; and const char* password = "YourWiFiPassword";
 Set your Telegram bot token: String BOTtoken = "YourBotToken";
