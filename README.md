@@ -1,11 +1,12 @@
-Laser Security System Using IoT
-Overview
+# Laser Security System Using IoT
+## Overview
 The Laser Security System Using IoT is an Arduino-based project that combines laser detection technology with Internet of Things (IoT) to create an intelligent and remotely accessible security system. The system integrates an ESP32-CAM module, a laser, and a Telegram bot for efficient monitoring and control.
 
-Project Features
+## Project Features
 Laser Detection Technology: Utilizes laser beams for accurate intrusion detection.
 
-IoT Integration: Connects to Telegram bot for real-time monitoring and control.
+### IoT Integration: 
+Connects to Telegram bot for real-time monitoring and control.
 
 Remote Commands: Interact with the ESP32-CAM through Telegram commands.
 
